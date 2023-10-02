@@ -4,21 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Jose's Bio</title>
 </head>
 <header>
     <h1>About Me</h1>
 </header>
 <body>
-    <secion>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#contact_me">Contact Me!</a></li>
+
+        </ul>
+    </nav>
+    
+    <section>
     <ul>
         <li>First Name: Jose</li>
         <li>Last Name: Rocha</li>
         <li>Github: <a href="https://github.com/joeyrocha">My Github👍</a></li>
         <li>Location: San Jose, CA</li>
     </ul>
-    </secion>
-    <section>
+    </section>
+    <section id="hobbies">
     <h2>Hobbies</h2>
     <ol>
         <li>Love to go hiking</li>
@@ -26,24 +36,24 @@
         <li>visiting new places and meeting random people</li>
     </ol>
     </section>
-    <section>
+    <section id="bio">
     <img src="\profile pic.jpg" width="250" height="250">
     <p>I am a california native born in the central valley I currently made my way out to the bay area 5 years ago for
-        school and work. <br>I currently live in San Jose and enjoy hiking, exploring and hanging out with friends and
+        school and work. I currently live in San Jose and enjoy hiking, exploring and hanging out with friends and
         family.</p>
     </section>
 
-    <form>
+    <form id="contact_me">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" />
+        <input type="text" id="name" name="user_name" class="form-input"/>
         <br>
         <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" />
+        <input type="email" id="mail" name="user_email" class="form-input"/>
         <br>
-        <label for="tetbox">Comments:</label>
-        <textarea id="textbox" name="Text Box" type="text"></textarea>
+        <label for="textbox">Comments:</label>
+        <textarea id="textbox" name="Text Box" type="text" class="form-textarea"></textarea>
         <br>
-        <input type="submit">
+        <input type="submit" class="form-submit">
     </form>
 </body>
 </html>

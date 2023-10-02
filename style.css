@@ -1,0 +1,99 @@
+body, h1, h2, ul, ol, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+}
+.navbar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(129, 136, 119, 0.5);
+    padding: 10px;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+
+}
+
+.navbar li {
+    margin: 0 10px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #FF851B;
+}
+section{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;}
+body{
+    background-image: url(lock\ screen.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+}
+*{
+    color: #fff;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-submit{
+    background-color: rgba(129, 136, 119, 0.5) ;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-textarea{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
